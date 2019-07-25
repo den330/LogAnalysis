@@ -1,5 +1,7 @@
 # LogAnalysis
 
+Run command line "python LogAnalysis.py" to run the program.
+
 
 #create view slugCount as select SUBSTRING(path, 10, length(path)), 
 #count(*) from log where status='200 OK' 
